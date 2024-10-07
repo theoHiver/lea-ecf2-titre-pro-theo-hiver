@@ -5,58 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Acceuil</title>
 </head>
 
 <body>
     <header>
         <div>
-            <div>
+            <div class="container-logo-johnDoe">
                 <img src="images/logo-john-doe.svg" alt="logo-john-doe">
             </div>
             <div></div>
         </div>
-        <div>
-            <div>
-                <h1>
-                    John Doe - Développeur Web
-                </h1>
-            </div>
+        <div class="container-h1-hr">
+            <h1>John Doe - Développeur Web</h1>
             <hr>
         </div>
     </header>
     <main>
         <section>
             <div>
-                <h2>
-                    Mon Profil
-                </h2>
-                <div>
-                    <img src="images/portrait.jpg" alt="portrait-john-doe">
-                    <p>
-                        Développeur web de père en fils, passioné par la technologie et l'innovation. J'ai acquis une expertise en HTML, CSS, JavaScript et Git, me permet créer des sites web performants et esthétiques. Prêt à relever de nouveaux défis.
-                    </p>
+                <h2>Mon Profil</h2>
+                <div class="container-profil">
+                    <div class="container-portrait">
+                        <img src="images/portrait.jpg" alt="portrait-john-doe" class="portrait-john-doe">
+                    </div>
+                    <div class="container-description">
+                        <p class="description-profil">
+                            Développeur web de père en fils, passioné par la technologie et l'innovation. J'ai acquis une expertise en HTML, CSS, JavaScript et Git, me permet créer des sites web performants et esthétiques. Prêt à relever de nouveaux défis.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
             <div>
-                <h2>
-                    Mes compétences
-                </h2>
+                <h2>Mes compétences</h2>
                 <div>
-                    <img src="images/html.svg" alt="logo-html">
-                    <img src="images/css.svg" alt="logo-css">
-                    <img src="images/js.svg" alt="logo-js">
-                    <img src="images/git.svg" alt="logo-github">
+                    <a href="https://developer.mozilla.org/fr/docs/Web/HTML">
+                        <img src="images/html.svg" alt="logo-html">
+                    </a>
+                    <a href="https://developer.mozilla.org/fr/docs/Web/CSS">
+                        <img src="images/css.svg" alt="logo-css">
+                    </a>
+                    <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">
+                        <img src="images/js.svg" alt="logo-js">
+                    </a>
+                    <a href="https://github.com/">
+                        <img src="images/git.svg" alt="logo-github">
+                    </a>
                 </div>
             </div>
         </section>
         <section>
             <div>
-                <h2>
-                    Me contacter
-                </h2>
+                <h2>Me contacter</h2>
                 <div>
                     <form action="">
                         <div>
@@ -84,20 +90,13 @@
                         <div>
                             <input type="submit" value="Envoyer">
                         </div>
-                        <!-- <input type="text" placeholder="Nom">
-                        <input type="text" placeholder="Prénom">
-                        <input type="email" placeholder="Email">
-                        <textarea placeholder="Message"></textarea>
-                        <button type="submit">Envoyer</button> -->
                     </form>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <p>
-            &copy; John Doe Officiel
-        </p>
+        <p>&copy; John Doe Officiel</p>
     </footer>
 </body>
 
