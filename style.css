@@ -123,11 +123,43 @@ footer {
 
 /* ----- header ----- */
 
+.container-link-logo {
+    display: flex;
+}
+
 .container-logo-johnDoe {
     width: 50%;
     display: flex;
     justify-content: center;
     height: 50px;
+}
+
+.container-link {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.container-index {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 100%;
+}
+
+.index, .index-v2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.index {
+    background-color: #16a34a;
+}
+
+.index-v2 {
+    background-color: #2563eb;
 }
 
 .container-h1-hr {
