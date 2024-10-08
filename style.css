@@ -108,6 +108,14 @@ a {
     text-decoration: none;
 }
 
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    border: none;
+}
+
 footer {
     background-color: #22c55e;
 }
@@ -176,4 +184,47 @@ a:hover {
 .container-label-input {
     display: flex;
     flex-direction: column;
+    width: 49%;
+    padding: 5px 0;
+}
+
+.container-message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 0;
+
+}
+
+.container-coordonnées input {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.container-nom-prenom, .container-email-téléphone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-message input {
+    padding: 5px 5px 50px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 5px grey;
+}
+
+.container-submit {
+    padding: 10px 0;
+}
+
+.submit {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
