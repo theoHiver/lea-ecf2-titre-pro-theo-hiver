@@ -327,5 +327,8 @@ a:hover {
 /* ----- responsive ----- */
 
 @media screen and (max-width: 750px) {
-    
+    .container-profil {
+        display: flex;
+        flex-direction: column;
+    }
 }
