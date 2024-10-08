@@ -104,6 +104,16 @@ h2 {
     text-decoration: underline dotted #22c55e;
 }
 
+.h2-v2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 110px;
+    text-decoration: underline dotted #2563eb;
+}
+
 a {
     text-decoration: none;
 }
@@ -117,7 +127,12 @@ input {
 }
 
 footer {
-    background-color: #22c55e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #16a34a;
+    color: white;
 }
 
 
@@ -168,10 +183,22 @@ footer {
     align-items: center;
     justify-content: center;
     height: 100px;
-    background-color: #22c55e;
+    background-color: #16a34a;
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+
+.container-h1-hr-v2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3b82f6;
 }
 
 
@@ -189,7 +216,15 @@ footer {
 }
 
 .portrait-john-doe {
-    display: flex;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #22c55e;
+}
+
+.portrait-john-doe-v2 {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #3b82f6;
 }
 
 .description-profil {
@@ -245,7 +280,6 @@ a:hover {
     margin-bottom: 10px;
     background-color: whitesmoke;
     border-radius: 3px;
-    box-shadow: 5px grey;
 }
 
 .container-submit {
@@ -253,10 +287,44 @@ a:hover {
 }
 
 .submit {
-    background-color: #22c55e;
+    background-color: #16a34a;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.submit:hover {
+    background-color: #22c55e;
+}
+
+.submit-v2 {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-v2:hover {
+    background-color: #3b82f6;
+}
+
+/* ----- footer ----- */
+
+.footer-v2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: white;
+    background-color: #2563eb;
+}
+
+/* ----- responsive ----- */
+
+@media screen and (max-width: 750px) {
+    
 }
